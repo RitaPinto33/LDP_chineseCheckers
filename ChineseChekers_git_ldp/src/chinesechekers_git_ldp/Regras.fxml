@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="517.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChineseCheckers.RegrasController">
+    <stylesheets>
+        <URL value="@/ChineseCheckers/style.css" />
+    </stylesheets>
+   <children>
+      <Text fill="#ffc26d" layoutX="231.0" layoutY="65.0" stroke="#837676" strokeType="OUTSIDE" strokeWidth="2.0" text="Regras">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+      </Text>
+      <Circle fill="#ffc26d" layoutX="41.0" layoutY="112.0" radius="9.0" stroke="#837676" strokeType="INSIDE" />
+      <Text fill="WHITE" layoutX="66.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O objetivo do jogo é ser o primeiro jogador a atravessar todo o tabuleiro movendo todas as peças para o triângulo oposto. O primeiro jogador a ocupar todos os 10 buracos do triângulo oposto é o vencedor." wrappingWidth="512.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="66.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="É sorteado o primeiro jogador a jogar. Em cada turno um jogador pode mover, apenas, uma das suas peças. Uma peça pode ser movida para um buraco adjacente ou pode fazer um ou mais saltos sobre outras peças." wrappingWidth="512.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Circle fill="#ffc26d" layoutX="41.0" layoutY="188.0" radius="9.0" stroke="#837676" strokeType="INSIDE" />
+      <Circle fill="#ffc26d" layoutX="41.0" layoutY="271.0" radius="9.0" stroke="#837676" strokeType="INSIDE" />
+      <Text fill="WHITE" layoutX="66.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A cada salto sobre peças deverá ser em direção adjacente às mesmas e com destino a um buraco à frente delas. É possível uma peça saltar por cima de qualquer uma das peças adversárias ou das próprias peças em qualquer direção." wrappingWidth="512.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="66.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Depois de cada salto, o jogador pode terminar a jogada ou, se possível e quiser, continuar a saltar por cima de outras peças. Se saltar por cima de peças do oponente, a peça do oponente será retirada.Após uma peça entrar no triangulo oposto, essa peça não poderá ser mais movida para fora do triângulo." wrappingWidth="512.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Circle fill="#ffc26d" layoutX="41.0" layoutY="366.0" radius="9.0" stroke="#837676" strokeType="INSIDE" />
+      <Button id="BotaoMenu" fx:id="Sair" layoutX="519.0" layoutY="462.0" mnemonicParsing="false" onAction="#RespondeSair" text="Sair">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
