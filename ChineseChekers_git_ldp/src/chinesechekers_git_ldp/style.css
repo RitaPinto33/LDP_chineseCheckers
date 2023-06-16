@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/mai/2021, 18:48:28
+    Author     : João Miranda
+*/
+
+#AnchorPane{
+    -fx-background-color: #FFF5EE;
+}
+
+#BotaoTurno{
+    -fx-background-color: #66cc00;
+    -fx-border-color: #000000;
+    -fx-border-radius: 4px;
+}
+
+#BotaoMenu{
+    -fx-background-color: #9999ff;
+    -fx-border-color: #000000;
+    -fx-border-radius: 4px;
+    -fx-font: "Arial", 12;
+    
+}
+
+.LabelJogadores{
+    -fx-background-color: #9999ff;
+    -fx-border-color: #000000;
+    -fx-border-radius: 4px;
+} 
+
+#BotaoDesistir{
+    -fx-background-color: #ff0000; 
+    -fx-border-color: #000000;
+    -fx-border-radius: 4px;
+}
