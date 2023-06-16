@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChineseCheckers.DefinirJogadorController">
+    <stylesheets>
+        <URL value="@/ChineseCheckers/style.css" />
+    </stylesheets>
+   <children>
+      <Text layoutX="204.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insira o seu nome:" wrappingWidth="192.1279296875">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <TextField id="BotaoMenu" fx:id="labelNome" layoutX="204.0" layoutY="98.0" onAction="#setNome" prefHeight="29.0" prefWidth="183.0" />
+      <Text layoutX="204.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escolha uma cor:" wrappingWidth="192.1279296875">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="CheckboxVermelho" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="149.0" layoutY="294.0" mnemonicParsing="false" onAction="#setVermelho" wrapText="true" />
+      <Circle fill="#ff1f1f" layoutX="159.0" layoutY="246.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffc91f" layoutX="263.0" layoutY="246.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#009427" layoutX="462.0" layoutY="246.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#eeff00" layoutX="367.0" layoutY="246.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <CheckBox fx:id="CheckboxLaranja" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="253.0" layoutY="294.0" mnemonicParsing="false" onAction="#setLaranja" wrapText="true" />
+      <CheckBox fx:id="CheckboxAmarelo" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="357.0" layoutY="294.0" mnemonicParsing="false" onAction="#setAmarelo" wrapText="true" />
+      <CheckBox fx:id="CheckboxVerde" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="452.0" layoutY="294.0" mnemonicParsing="false" onAction="#setVerde" wrapText="true" />
+      <Button id="BotaoMenu" fx:id="BotaoComecar" layoutX="499.0" layoutY="346.0" mnemonicParsing="false" onAction="#RespondeComeçar" text="Começar">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button id="BotaoMenu" fx:id="BotaoRetroceder" layoutX="14.0" layoutY="346.0" mnemonicParsing="false" onAction="#RespondeRetroceder" text="Retroceder">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
