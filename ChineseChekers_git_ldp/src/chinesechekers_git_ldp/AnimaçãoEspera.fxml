@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChineseCheckers.AnimaçãoEsperaController">
+    <stylesheets>
+        <URL value="@/ChineseCheckers/style.css" />
+    </stylesheets>
+   <children>
+      <Circle fx:id="Circle2" fill="#ffc26d" layoutX="300.0" layoutY="200.0" radius="37.0" stroke="#837676" strokeType="INSIDE" />
+      <Circle fx:id="Circle1" fill="#ffc26d" layoutX="182.0" layoutY="200.0" radius="37.0" stroke="#837676" strokeType="INSIDE" />
+      <Circle fx:id="Circle3" fill="#ffc26d" layoutX="424.0" layoutY="200.0" radius="37.0" stroke="#837676" strokeType="INSIDE" />
+      <Text fill="#ffc26d" layoutX="111.0" layoutY="78.0" stroke="#837676" strokeType="OUTSIDE" strokeWidth="2.0" text="Aguarde pelo adversário">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Text>
+      <Button id="BotaoMenu" fx:id="Sair" layoutX="259.0" layoutY="328.0" mnemonicParsing="false" onAction="#RespondeSair" prefHeight="40.0" prefWidth="89.0" text="Cancelar">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
