@@ -7,7 +7,7 @@ package chinesecheckers;
 
 /**
  *
- * @author Rui Fernandes
+ * @author Rui Fernandes, Rita Pinto e Nuno Mansilhas....
  */
 class Jogador {
     
