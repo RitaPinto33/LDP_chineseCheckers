@@ -7,7 +7,7 @@ package chinesecheckers;
 
 /**
  *
- * @author Rui Fernandes
+ * @authorRui Fernandes, Rita Pinto e Nuno Mansilhas....
  */
 class Tabuleiro {
     
