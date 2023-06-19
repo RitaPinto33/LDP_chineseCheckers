@@ -16,7 +16,7 @@ import javafx.scene.shape.Circle;
  * <p>Circulo<p>
  *Esta classe define as proriedades de cada bola no tabuleiro.
  * 
- * @author Rui Fernandes, Rita Pinto e Nuno Mansilhas
+ * @author Rui Fernandes, Rita Pinto e Nuno Mansilhas....
  */
 public class Circulo extends Circle {
 
