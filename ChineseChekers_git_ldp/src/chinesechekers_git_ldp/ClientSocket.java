@@ -39,6 +39,30 @@ public class ClientSocket {
         this.dos = null;
         this.ligado = false;
     }
+    
+        /**
+     *Método que permitirá enviar uam menssagem para o servidor.
+     * @param mensagem
+     * @throws IOException
+     */
+    public void enviaMensagem(String mensagem) throws IOException {
+        if (ligado) {
+            dos.writeUTF(mensagem);
+        }
+    }
+    
+        /**
+     *Método que permitirá receber e ler uma menssagem do servidor.
+     * @return
+     * @throws IOException
+     */
+    public String recebeMensagem() throws IOException {
+        String mensagem = null;
+        if (ligado) {
+            mensagem = dis.readUTF();
+        }
+        return mensagem;
+    }
 
  
 }
