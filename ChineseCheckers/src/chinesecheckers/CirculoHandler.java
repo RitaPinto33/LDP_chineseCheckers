@@ -9,7 +9,7 @@ import javafx.scene.input.MouseEvent;
  * <p>CirculoHandler<p>
  * Classe que atribui propriedades de click para as bolas do tabuleiro
  * 
- * @author Rui Fernandes, Rita Pinto e Nuno Mansilhas
+ * @author Rui Fernandes, Rita Pinto e Nuno Mansilhas....
  */ 
 public class CirculoHandler implements EventHandler<MouseEvent> {
 
