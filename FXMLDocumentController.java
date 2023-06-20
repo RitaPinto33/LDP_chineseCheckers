@@ -28,7 +28,7 @@ import javafx.stage.Stage;
  * FXMLDocumentController<p>
  * Controlador da pagina do tabuleiro
  *
- * @author João Miranda & Leonardo Andrade & Miguel Cruzeiro
+ *
  */
 public class FXMLDocumentController implements Initializable {
 
