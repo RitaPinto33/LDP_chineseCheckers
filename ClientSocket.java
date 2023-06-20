@@ -8,7 +8,7 @@ import java.net.*;
  * A classe ClientSocket permitirá fazer a conexão dos clientes ao
  * servidor.
  * 
- * @author João Miranda & Leonardo Andrade & Miguel Cruzeiro
+ * 
  */
 public class ClientSocket {
 
