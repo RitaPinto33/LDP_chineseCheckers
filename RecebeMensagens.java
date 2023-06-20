@@ -9,7 +9,7 @@ import javafx.concurrent.Task;
  * Classe que é utilizada para receber mensagens enquanto o socket estiver
  * ligado
  *
- * @author João Miranda & Leonardo Andrade & Miguel Cruzeiro
+ * 
  */
 public class RecebeMensagens extends Task {
 
