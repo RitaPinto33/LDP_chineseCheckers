@@ -24,7 +24,6 @@ import javafx.stage.Stage;
  * 
  * FXML Controller class
  *
- * @author João Miranda & Leonardo Andrade & Miguel Cruzeiro
  */
 public class MenuController implements Initializable {
 
