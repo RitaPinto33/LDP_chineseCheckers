@@ -11,7 +11,7 @@ import javafx.concurrent.Task;
  * <p>RecebeMensagemInicio<p>
  * Classe que é utilizada para receber uma mensagem inicial enquanto o socket estiver ligado
  * 
- * @author João Miranda & Leonardo Andrade & Miguel Cruzeiro
+ *
  */
 public class RecebeMensagemInicio extends Task {
 
