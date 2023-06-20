@@ -16,7 +16,7 @@ import javafx.stage.Stage;
  * A classe ChineseCheckers permitirá fazer a conecção dos clientes ao
  * servidor, assim como inicializar o jogo.
  * 
- * @author João Miranda & Leonardo Andrade & Miguel Cruzeiro
+ * 
  */
 public class ChineseCheckers extends Application {
 
